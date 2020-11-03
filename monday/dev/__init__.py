@@ -1,6 +1,7 @@
 from flask import (Flask, render_template, request, session, redirect, url_for)
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
+from flask_session import Session
 import pymysql
 from .configs import setting
 
@@ -29,9 +30,18 @@ def before():
 
 
 def create_app():
+    '''
+        将session存储到redis中
+        1.配置
+            SESSION_TYPE = 'redis'
+            SESSION_REDIS = Redis(host='localhost', password=12345)
+        2.注册
+            from flask_session import Session
+            Session(app)
+    '''
+    Session(app)  # 将session存到redis中（配置文件中有关于redis的相关配置）
 
     from .src import user, index
     app.register_blueprint(user.bp)
     app.register_blueprint(index.bp)
     return app
-    app.session_interface

@@ -1,9 +1,8 @@
 from flask.views import MethodView
 from flask import request, session, redirect, url_for, render_template
-from dev.configs import setting
-from dev import db
 from ..user import bp
 from dev.modles import SqlHelper
+
 
 
 @bp.route('/login', methods=['POST', "GET"])
