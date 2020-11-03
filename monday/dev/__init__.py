@@ -1,5 +1,6 @@
 from flask import (Flask, render_template, request, session, redirect, url_for)
 from flask_sqlalchemy import SQLAlchemy
+from flask_wtf.csrf import CsrfProtect
 import pymysql
 from .configs import setting
 
@@ -7,7 +8,7 @@ pymysql.install_as_MySQLdb()
 
 app = Flask(__name__)
 app.config.from_pyfile('configs/profile.py')
-
+CsrfProtect(app)
 db = SQLAlchemy(app)
 
 
@@ -27,10 +28,9 @@ def before():
 
 
 def create_app():
-    @app.route('/index')
-    def index():
-        return 'Index'
 
-    from .src import user
+    from .src import user, index
     app.register_blueprint(user.bp)
+    app.register_blueprint(index.bp)
     return app
+    app.session_interface

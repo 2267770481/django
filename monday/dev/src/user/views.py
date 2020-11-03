@@ -1,7 +1,9 @@
 from flask.views import MethodView
 from flask import request, session, redirect, url_for, render_template
 from dev.configs import setting
+from dev import db
 from ..user import bp
+from dev.modles import SqlHelper
 
 
 @bp.route('/login')
@@ -15,6 +17,15 @@ def login():
 
 @bp.route('/logup')
 def logup():
+    # sql = 'insert into db_userinfo(username, password, state) values (:a, :b, "01")'
+    # sql = 'select id, username from db_userinfo where username=:username'
+    sql = 'update db_userinfo set username = :username where id=:id'
+    args = {
+        'username': 'luoxiang',
+        'id': '1123'
+    }
+    res = SqlHelper.update(sql, args)
+    print(res)
     return render_template('logup.html')
 
 
@@ -29,8 +40,18 @@ class Logged(MethodView):
         username = request.form.get('username', None)
         password = request.form.get('password', None)
 
+        if not username or not password:
+            return redirect(url_for('index.tips', tips='用户名或密码为空'))
         print(username, password)
 
+        self._handle(username, password)
         session['logged_info'] = username
 
-        return redirect(url_for('index'))
+        return redirect(url_for('index.index'))
+
+    def _handle(self, username, password):
+        sql = """
+            insert into db_UserInfo(username, password,state) values(:username, :password, '00')
+        """
+        args = {'username': username, 'password': password}
+        SqlHelper.insert(sql, args)
