@@ -42,6 +42,7 @@ if __name__ == '__main__':
     # a = [1, 0, 0,0,0,0]
     # res = seat(a)
     # print(res)
-    from redis import Redis
-    conn = Redis(host='localhost', password=12345)
-    print(conn.get('abc'))
+    from monday.public.db_util import mysql
+    sql = 'update db_userinfo set username="aa" where id=%(id)s'
+    res = mysql.insert(sql, {"id": 5})
+    print(res)
