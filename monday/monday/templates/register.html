@@ -7,9 +7,15 @@
 <body>
 <h2>注册</h2>
 <form method="post">
-    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-    <input type="text" name="username">
-    <input type="password" name="password">
+<!--    {{ form.csrf_token }}-->
+<!--    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />-->
+<!--    <input type="text" name="username">-->
+<!--    <input type="password" name="password">-->
+<!--    <input type="submit" value="注册">-->
+
+    {%for item in form%}
+        <p>{{item.label}}:{{item}}{{item.errors[0]}}</p>
+    {% endfor %}
     <input type="submit" value="注册">
 </form>
 </body>
