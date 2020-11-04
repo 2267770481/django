@@ -17,7 +17,7 @@
 
 import pymysql
 from dbutils.pooled_db import PooledDB
-from ..configs.setting import mysql
+from ..configs.setting import MYSQL_CONFIG
 
 
 class MySql:
@@ -40,7 +40,7 @@ class MySql:
             setsession=[],
             # ping Mysql服务器检查服务是否可用, 0 =无=从不，1 =默认=每当从池中获取时，2 =创建游标时，4 =查询时被执行，7 =总是
             ping=0,
-            **mysql
+            **MYSQL_CONFIG
         )
 
     def _get_one_connect(self, res_dict):

@@ -43,6 +43,6 @@ if __name__ == '__main__':
     # res = seat(a)
     # print(res)
     from monday.public.db_util import mysql
-    sql = 'update db_userinfo set username="aa" where id=%(id)s'
-    res = mysql.insert(sql, {"id": 5})
+    sql = 'select id, username, password from db_userinfo'
+    res = mysql.fetch_all(sql)
     print(res)
