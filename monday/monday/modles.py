@@ -1,4 +1,4 @@
-from . import db
+from manage import db
 
 
 class UserInfo(db.Model):

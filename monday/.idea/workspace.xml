@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1849a02e-0808-4113-b68e-d084b20863cb" name="Default Changelist" comment="" />
+    <list default="true" id="1849a02e-0808-4113-b68e-d084b20863cb" name="Default Changelist" comment="增加 用户列表页面">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/configs/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/configs/profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/configs/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/configs/setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/modles.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/modles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/admin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/views/admin/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/views/admin/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/index/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/views/index/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/views/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/views/user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/views/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/templates/_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/monday/templates/_404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/monday/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/monday/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/templates/user_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/monday/templates/user_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,19 +29,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/src/user/__init__.py">
+        <entry file="file://$PROJECT_DIR$/monday/views/user/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="89" lean-forward="true" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/src/user/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -31,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask_session/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="1716">
               <caret line="82" column="37" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="37" />
             </state>
           </provider>
@@ -40,17 +64,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask_session/sessions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="2222">
               <caret line="104" column="28" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/configs/profile.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monday/configs/profile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="286">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -59,7 +83,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/templates/user_list.html">
+        <entry file="file://$PROJECT_DIR$/monday/templates/user_list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
@@ -68,25 +92,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/templates/register.html">
+        <entry file="file://$PROJECT_DIR$/monday/templates/register.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/modles.py">
+        <entry file="file://$PROJECT_DIR$/monday/modles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="-264">
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/test.py">
+        <entry file="file://$PROJECT_DIR$/monday/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="990">
               <caret line="45" column="49" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="49" />
@@ -95,13 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/__init__.py">
+        <entry file="file://$PROJECT_DIR$/monday/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#0#79#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="79" selection-start-column="79" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -142,10 +163,8 @@
         <option value="$PROJECT_DIR$/dev/templates/logup.html" />
         <option value="$PROJECT_DIR$/dev/configs/setting.py" />
         <option value="$PROJECT_DIR$/dev/src/user/urls.py" />
-        <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/dev/src/index/__init__.py" />
         <option value="$PROJECT_DIR$/dev/utils/sql.py" />
-        <option value="$PROJECT_DIR$/dev/modles.py" />
         <option value="$PROJECT_DIR$/dev/xxx.py" />
         <option value="$PROJECT_DIR$/dev/templates/login.html" />
         <option value="$PROJECT_DIR$/dev/src/user/__init__.py" />
@@ -153,9 +172,11 @@
         <option value="$PROJECT_DIR$/dev/templates/user_info.html" />
         <option value="$PROJECT_DIR$/dev/templates/user_list.html" />
         <option value="$PROJECT_DIR$/dev/test.py" />
-        <option value="$PROJECT_DIR$/dev/src/user/views.py" />
         <option value="$PROJECT_DIR$/dev/configs/profile.py" />
         <option value="$PROJECT_DIR$/dev/__init__.py" />
+        <option value="$PROJECT_DIR$/dev/modles.py" />
+        <option value="$PROJECT_DIR$/dev/src/user/views.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
       </list>
     </option>
   </component>
@@ -173,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,42 +202,10 @@
               <item name="monday" type="b2602c69:ProjectViewProjectNode" />
               <item name="monday" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="monday" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monday" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monday" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monday" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monday" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monday" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monday" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monday" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monday" type="b2602c69:ProjectViewProjectNode" />
-              <item name="monday" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,7 +324,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604285487466</updated>
       <workItem from="1604285498861" duration="19448000" />
-      <workItem from="1604368960774" duration="22521000" />
+      <workItem from="1604368960774" duration="23175000" />
+      <workItem from="1604453917888" duration="981000" />
     </task>
     <task id="LOCAL-00001" summary="dd">
       <created>1604389542418</created>
@@ -364,22 +355,29 @@
       <option name="project" value="LOCAL" />
       <updated>1604397547990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加 用户列表页面">
+      <created>1604397668117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604397668117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41969000" />
+    <option name="totallyTimeSpent" value="43604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3394794" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3394794" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,12 +417,13 @@
     <MESSAGE value="增加csrf---登陆页面" />
     <MESSAGE value="session 存储到 redis" />
     <MESSAGE value="增加 pipreqs" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加 pipreqs" />
+    <MESSAGE value="增加 用户列表页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加 用户列表页面" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/monday$test.coverage" NAME="test Coverage Results" MODIFIED="1604395335947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dev" />
     <SUITE FILE_PATH="coverage/monday$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1604385867538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dev" />
-    <SUITE FILE_PATH="coverage/monday$manage.coverage" NAME="manage Coverage Results" MODIFIED="1604396011701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/monday$manage.coverage" NAME="manage Coverage Results" MODIFIED="1604454895689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask_migrate/__init__.py">
@@ -450,11 +449,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/migrations/versions/17f1b028984e_.py" />
-    <entry file="file://$PROJECT_DIR$/dev/src/admin/__init__.py">
+    <entry file="file://$PROJECT_DIR$/monday/views/admin/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/src/admin/urls.py" />
-    <entry file="file://$PROJECT_DIR$/dev/src/admin/views.py">
+    <entry file="file://$PROJECT_DIR$/monday/views/admin/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/src/__init__.py" />
@@ -465,7 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/configs/setting.py">
+    <entry file="file://$PROJECT_DIR$/monday/configs/setting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="27" selection-start-column="27" selection-end-column="27" />
@@ -481,16 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/index/views.py">
+    <entry file="file://$PROJECT_DIR$/monday/views/index/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/utils/sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/utils/sql.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask/helpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -561,17 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/_404.html">
+    <entry file="file://$PROJECT_DIR$/monday/templates/_404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
@@ -581,27 +564,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/index/__init__.py">
+    <entry file="file://$PROJECT_DIR$/monday/views/index/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/monday/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="76" />
           <folding>
             <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -612,71 +588,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/modles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/templates/user_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/user/__init__.py">
+    <entry file="file://$PROJECT_DIR$/monday/views/user/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="89" lean-forward="true" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask_session/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="104" column="28" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="28" />
+          <caret line="6" column="89" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask_session/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="1716">
           <caret line="82" column="37" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/test.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask_session/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2222">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monday/configs/profile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monday/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monday/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="45" column="49" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/user/views.py">
+    <entry file="file://$PROJECT_DIR$/monday/templates/user_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+        <state relative-caret-position="154">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/__init__.py">
+    <entry file="file://$PROJECT_DIR$/monday/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state>
+          <caret column="79" selection-start-column="79" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monday/modles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monday/views/user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#0#79#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/configs/profile.py">
+    <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
