@@ -10,3 +10,7 @@ MYSQL_CONFIG = {
     'password': 'root',
     'charset': 'utf8'
 }
+
+# 日志文件配置
+LOG_PATH = 'D:\python\monday'
+

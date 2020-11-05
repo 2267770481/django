@@ -10,11 +10,6 @@ from email_validator import validate_email, EmailNotValidError
 
 
 class RegisterForm(FlaskForm):
-    # csrf_token = CSRFTokenField(
-    #     # default=generate_csrf
-    #     # default=generate_csrf_token()
-    # )
-
     username = simple.StringField(
         label="用户名",
         validators=[
@@ -108,4 +103,8 @@ class RegisterForm(FlaskForm):
     #     # 最开始初始化时，self.data中已经有所有的值
     #     if field.data != self.data['password']:
     #         # raise validators.ValidationError("密码不一致") # 继续后续验证
-    #         raise validators.StopValidation("密码不一致")  # 不再继续后续验证
+    #         # raise validators.StopValidation("密码不一致")  # 不再继续后续验证
+    #         print('ddddddd')
+    #         field.data = 123123
+    #         self.data['password'] = 123123445
+    #         print('qqqqqqqqqq')

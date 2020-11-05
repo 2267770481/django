@@ -6,12 +6,16 @@
 </head>
 <body>
     <h2>登录</h2>
-    <p style="color: red">{{ctx.tips}}</p>
+    <p style="color: red;">{{ctx.tips}}</p>
     <form action="/user/login" method="post">
-        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-        <input type="text" name="username">
-        <input type="password" name="password">
-        <input type="submit" value="登录">
+<!--        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />-->
+<!--        <input type="text" name="username">-->
+<!--        <input type="password" name="password">-->
+<!--        <input type="submit" value="登录">-->
+        {{form.csrf_token}}
+        {{form.username.label}}{{form.username}}{{form.username.errors[0]}}
+        {{form.password.label}}{{form.password}}{{form.password.errors[0]}}
+        {{form.submit}}
     </form>
 </body>
 </html>

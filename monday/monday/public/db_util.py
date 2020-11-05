@@ -18,6 +18,7 @@
 import pymysql
 from dbutils.pooled_db import PooledDB
 from ..configs.setting import MYSQL_CONFIG
+from monday import logger
 
 
 class MySql:
@@ -90,6 +91,7 @@ class MySql:
             self._conn.commit()  # 提交事务
         except Exception as e:
             self._conn.rollback()  # 事务回滚
+            logger.error(f"""数据库执行失败:[sql: {sql}] {e}""")
             raise e
 
     def insert(self, sql, args=None):
