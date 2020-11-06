@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1849a02e-0808-4113-b68e-d084b20863cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monday/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monday/configs/profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/configs/profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monday/modles.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/modles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monday/public/db_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/public/db_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monday/public/log_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/public/log_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monday/templates/user_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/monday/templates/user_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monday/views/index/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/views/index/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monday/views/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/monday/views/user/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="1849a02e-0808-4113-b68e-d084b20863cb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask/logging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="462">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="e#2604#3069#0" />
               </folding>
@@ -429,7 +418,7 @@
       <workItem from="1604459348122" duration="16939000" />
       <workItem from="1604483199278" duration="854000" />
       <workItem from="1604542079643" duration="21346000" />
-      <workItem from="1604628730597" duration="12055000" />
+      <workItem from="1604628730597" duration="12982000" />
     </task>
     <task id="LOCAL-00001" summary="dd">
       <created>1604389542418</created>
@@ -508,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604569434821</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="使用flask 自带的logging 日志">
+      <created>1604649173350</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604649173350</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98315000" />
+    <option name="totallyTimeSpent" value="99242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,7 +528,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3362256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3362256" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -617,7 +613,8 @@
     <MESSAGE value="增加mysql数据库连接池和mysql数据库操作公共类" />
     <MESSAGE value="使用 wtform 校验表单数据 以及 表单csrf校验" />
     <MESSAGE value="添加日志模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加日志模块" />
+    <MESSAGE value="使用flask 自带的logging 日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用flask 自带的logging 日志" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/monday$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1604563815814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/monday" />
@@ -882,16 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask/logging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#2604#3069#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/monday/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -922,6 +909,16 @@
           <caret line="42" column="30" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="30" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/site-packages/flask/logging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="e#2604#3069#0" />
           </folding>
         </state>
       </provider>
