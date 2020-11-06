@@ -1,18 +1,19 @@
 from flask import (Flask, render_template, request, session, redirect, url_for)
 from flask_session import Session
+from flask_sqlalchemy import SQLAlchemy
+from flask_wtf import CSRFProtect
 import pymysql
 from .configs import setting
 from monday.views.forms.login import LoginForm
-from .public.log_util import logger_init
 
 pymysql.install_as_MySQLdb()
-
-logger = logger_init(path=setting.LOG_PATH, debug=True)  # 日志模块初始化
+db = SQLAlchemy()
 
 
 def create_app():
     app = Flask(__name__)
     app.config.from_pyfile('configs/profile.py')
+    app.logger.addHandler(app.config['FILE_HANDLE'])  # flask 日志配置
     '''
         将session存储到redis中
         1.配置
@@ -23,6 +24,10 @@ def create_app():
             Session(app)
     '''
     Session(app)  # 将session存到redis中（配置文件中有关于redis的相关配置）
+
+    CSRFProtect(app)  # 增加csrf校验
+
+    db.init_app(app)
 
     @app.errorhandler(404)
     def _404(e):

@@ -10,7 +10,11 @@ def logger_init(path: str = None, debug: bool = False):
     :param path: 日志存放路径, 默认是在初始化该函数代码的当前路径下创建一个Logs目录，
                 按天存放日志 如：Logs.20201105_Log.log
     :param debug: 是否是调试模式 如果是调试模式，会在控制台也输出日志
-    :return:
+    :return: logger对象
+
+        使用：
+        log = logger_init()
+        log.info('这是提示信息')
     """
     logger = logging.getLogger(__name__)
     """
@@ -43,7 +47,7 @@ def logger_init(path: str = None, debug: bool = False):
     # when指定单位是s(秒),interval是时间间隔的频率,单位是when所指定的哟（所以，你可以理解频率是5s）；backupCount表示备份的文件个数，我这里是指定的3个文件。
 
     fh = handlers.RotatingFileHandler(filename=log_name, maxBytes=10 * 1024 * 1024,
-                                      backupCount=3)  # 最多备份3个日志文件，每个日志文件最大10M
+                                      backupCount=3, encoding='utf-8')  # 最多备份3个日志文件，每个日志文件最大10M
     fh.setLevel(logging.INFO)  # 输出到file的log等级的开关
     formatter = logging.Formatter("%(asctime)s - %(filename)s[:%(lineno)d] - %(levelname)s: %(message)s")  # 定义输出格式
     fh.setFormatter(formatter)  # 添加格式化输出
