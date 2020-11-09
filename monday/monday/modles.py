@@ -14,3 +14,22 @@ class UserInfo(db.Model):
     free1 = db.Column(db.Integer)
     free2 = db.Column(db.String(20))
     free3 = db.Column(db.String(60))
+
+
+class Company(db.Model):
+    __tablename__ = "company"
+
+    name = db.Column(db.String(20), primary_key=True)
+    location = db.Column(db.String(20))
+
+    def __repr__(self):
+        return "name:{0} location:{1}".format(self.name, self.location)
+
+
+class Phone(db.Model):
+    __tablename__ = "phone"
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    model = db.Column(db.String(32))
+    price = db.Column(db.String(32))
+    company_name = db.Column(db.String(20), db.ForeignKey('company.name'))  # 创建与company.name关联的外键
+    company = db.relationship("Company", backref="phone_of_company")

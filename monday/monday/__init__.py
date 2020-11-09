@@ -47,7 +47,9 @@ def create_app():
                 form = LoginForm()
                 return render_template('login.html', form=form, ctx={'tips': '请先登录'})
 
-    from .views import user, index
+    from .views import user, index, admin
     app.register_blueprint(user.bp)
     app.register_blueprint(index.bp)
+    app.register_blueprint(admin.bp)
+
     return app

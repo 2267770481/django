@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>config</title>
+</head>
+<body>
+    <form method="post">
+        {{form.csrf_token}}
+        {{form.name.label}}{{form.name}}{{form.name.errors[0]}}
+        {{form.location.label}}{{form.location}}{{form.location.errors[0]}}
+        {{form.submit}}
+    </form>
+</body>
+</html>

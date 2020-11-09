@@ -8,7 +8,7 @@ Migrate(app, db)
 manage.add_command('db', MigrateCommand)
 
 if __name__ == '__main__':
-    from monday.modles import UserInfo
-
-    # db.create_all()  # 需要先导入modles模块中的类 才能在执行 python manage.py db init 的时候生成表
+    with app.app_context():     # 这个是为了解决在表单中使用了数据库查询
+        from monday import modles  # 需要先导入modles模块中的类 才能在执行 python manage.py db init 的时候生成表
+        db.create_all()
     manage.run()
