@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>result</title>
+</head>
+<body>
+<h3>{{ question.text }}</h3>
+
+<table style=" border: 1px solid #ccc;border-collapse: collapse; width:80%;text-align:center;">
+    <tr>
+        <th style="border: 1px solid #ccc;padding: 10px;">选项</th> <th  style="border: 1px solid #ccc;padding: 10px;">票数</th>
+    </tr>
+    {% for choice in question.choice_set.all %}
+    <tr style="border: 1px solid #ccc;padding: 10px;">
+        <td  style="border: 1px solid #ccc;padding: 10px;">{{ choice.choice_text }}</td>
+        <td  style="border: 1px solid #ccc;padding: 10px;">{{ choice.votes }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<a href="{% url 'polls:detail' question.id %}">再投一次？</a>
+</body>
+</html>

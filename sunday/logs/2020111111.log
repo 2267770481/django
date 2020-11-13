@@ -1,0 +1,95 @@
+INFO 2020-11-11 11:00:31,336 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:00:34,391 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:00:39,787 [views.py:48] [views:login] - UserInfo matching query does not exist.
+INFO 2020-11-11 11:00:39,787 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 12
+INFO 2020-11-11 11:00:47,589 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:00:52,009 [views.py:48] [views:login] - UserInfo matching query does not exist.
+INFO 2020-11-11 11:00:52,010 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 12
+INFO 2020-11-11 11:01:27,902 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:01:28,521 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:02:16,784 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:02:24,054 [views.py:49] [views:login] - UserInfo matching query does not exist.
+INFO 2020-11-11 11:02:24,054 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 12
+INFO 2020-11-11 11:03:18,016 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:03:18,645 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:03:22,655 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:03:26,435 [views.py:49] [views:login] - UserInfo matching query does not exist.
+INFO 2020-11-11 11:03:26,435 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 12
+INFO 2020-11-11 11:03:58,697 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:03:59,330 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:05:10,066 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:05:10,651 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:05:15,450 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:05:18,245 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 24
+INFO 2020-11-11 11:06:28,664 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:06:29,350 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:06:34,636 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:06:35,302 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:06:37,246 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:06:39,332 [views.py:49] [views:login] - 'UserInfo' object has no attribute 'all'
+INFO 2020-11-11 11:06:39,333 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 12
+INFO 2020-11-11 11:07:24,612 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:07:25,330 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:07:26,514 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:07:28,405 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 24
+INFO 2020-11-11 11:07:49,154 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:07:49,731 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:07:53,980 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:07:57,865 [views.py:49] [views:login] - UserInfo matching query does not exist.
+INFO 2020-11-11 11:07:57,866 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 12
+INFO 2020-11-11 11:08:22,982 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:08:23,921 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:08:30,020 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 24
+INFO 2020-11-11 11:08:46,150 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:08:49,346 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 302 0
+INFO 2020-11-11 11:08:49,349 [basehttp.py:157] [basehttp:log_message] - "GET /index HTTP/1.1" 301 0
+INFO 2020-11-11 11:08:49,351 [basehttp.py:157] [basehttp:log_message] - "GET /index/ HTTP/1.1" 200 5
+WARNING 2020-11-11 11:09:23,189 [log.py:224] [log:log_response] - Not Found: /index/ww
+WARNING 2020-11-11 11:09:23,189 [basehttp.py:157] [basehttp:log_message] - "GET /index/ww HTTP/1.1" 404 2221
+INFO 2020-11-11 11:12:07,814 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:12:08,416 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:12:14,292 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:12:21,102 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:12:42,623 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 302 0
+INFO 2020-11-11 11:12:42,626 [basehttp.py:157] [basehttp:log_message] - "GET /index HTTP/1.1" 301 0
+INFO 2020-11-11 11:12:42,630 [basehttp.py:157] [basehttp:log_message] - "GET /index/ HTTP/1.1" 200 5
+INFO 2020-11-11 11:13:20,471 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:13:21,058 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:14:53,919 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:14:54,541 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:16:16,633 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:16:17,234 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:16:23,534 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:16:24,114 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:16:48,790 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\index\urls.py changed, reloading.
+INFO 2020-11-11 11:16:49,378 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:16:52,856 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:16:56,627 [views.py:51] [views:login] - Reverse for 'index' with keyword arguments '{'foo': 'index'}' not found. 1 pattern(s) tried: ['index/$']
+INFO 2020-11-11 11:16:56,636 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 12
+INFO 2020-11-11 11:17:38,676 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:17:39,265 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:17:41,004 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:17:43,792 [views.py:51] [views:login] - Reverse for '' not found. '' is not a valid view function or pattern name.
+INFO 2020-11-11 11:17:43,804 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 12
+INFO 2020-11-11 11:18:04,100 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:18:04,705 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:18:19,413 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:18:22,399 [views.py:51] [views:login] - Reverse for 'index' with keyword arguments '{'foo': ''}' not found. 1 pattern(s) tried: ['index/$']
+INFO 2020-11-11 11:18:22,411 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 12
+INFO 2020-11-11 11:18:34,546 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:18:35,117 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:21:29,068 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 11:21:29,677 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 11:43:39,564 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\sunday\settings.py changed, reloading.
+INFO 2020-11-11 11:44:13,768 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+WARNING 2020-11-11 11:44:21,963 [log.py:224] [log:log_response] - Not Found: /user/login1
+WARNING 2020-11-11 11:44:21,963 [basehttp.py:157] [basehttp:log_message] - "GET /user/login1 HTTP/1.1" 404 145
+INFO 2020-11-11 11:44:27,303 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 11:44:33,023 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 302 0
+INFO 2020-11-11 11:44:33,027 [basehttp.py:157] [basehttp:log_message] - "GET /index HTTP/1.1" 301 0
+INFO 2020-11-11 11:44:33,030 [basehttp.py:157] [basehttp:log_message] - "GET /index/ HTTP/1.1" 200 5
+INFO 2020-11-11 11:44:47,775 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\sunday\settings.py changed, reloading.
+INFO 2020-11-11 11:44:48,390 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+WARNING 2020-11-11 11:44:56,779 [log.py:224] [log:log_response] - Not Found: /index111
+WARNING 2020-11-11 11:44:56,779 [basehttp.py:157] [basehttp:log_message] - "GET /index111 HTTP/1.1" 404 2174
+INFO 2020-11-11 14:20:59,489 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.

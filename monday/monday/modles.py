@@ -32,4 +32,4 @@ class Phone(db.Model):
     model = db.Column(db.String(32))
     price = db.Column(db.String(32))
     company_name = db.Column(db.String(20), db.ForeignKey('company.name'))  # 创建与company.name关联的外键
-    company = db.relationship("Company", backref="phone_of_company")
+    company = db.relationship("Company", backref="phone_of_company")  # 使用orm查询是可通过 正向查询和反向查询 直接获取类外一张表的数据

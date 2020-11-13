@@ -1,0 +1,28 @@
+INFO 2020-11-12 18:00:51,782 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-12 18:02:31,459 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\polls\models.py changed, reloading.
+INFO 2020-11-12 18:02:32,042 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-12 18:02:49,578 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\polls\admin.py changed, reloading.
+INFO 2020-11-12 18:02:50,165 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-12 18:02:55,132 [basehttp.py:157] [basehttp:log_message] - "GET /admin/polls/question/add/ HTTP/1.1" 200 12259
+INFO 2020-11-12 18:02:56,425 [basehttp.py:157] [basehttp:log_message] - "GET /admin/polls/question/ HTTP/1.1" 200 7319
+INFO 2020-11-12 18:03:00,504 [basehttp.py:157] [basehttp:log_message] - "GET /admin/polls/question/ HTTP/1.1" 200 7319
+INFO 2020-11-12 18:03:00,534 [basehttp.py:157] [basehttp:log_message] - "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2020-11-12 18:03:06,451 [basehttp.py:157] [basehttp:log_message] - "GET /admin/polls/question/?o=1 HTTP/1.1" 200 7653
+INFO 2020-11-12 18:03:06,466 [basehttp.py:157] [basehttp:log_message] - "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2020-11-12 18:03:06,480 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2020-11-12 18:03:07,169 [basehttp.py:157] [basehttp:log_message] - "GET /admin/polls/question/?o=-1 HTTP/1.1" 200 7658
+INFO 2020-11-12 18:03:07,196 [basehttp.py:157] [basehttp:log_message] - "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2020-11-12 18:03:08,065 [basehttp.py:157] [basehttp:log_message] - "GET /admin/polls/question/?o=1 HTTP/1.1" 200 7653
+INFO 2020-11-12 18:03:08,081 [basehttp.py:157] [basehttp:log_message] - "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2020-11-12 18:03:08,566 [basehttp.py:157] [basehttp:log_message] - "GET /admin/polls/question/?o=-1 HTTP/1.1" 200 7658
+INFO 2020-11-12 18:03:08,582 [basehttp.py:157] [basehttp:log_message] - "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2020-11-12 18:03:46,750 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\polls\models.py changed, reloading.
+INFO 2020-11-12 18:03:47,344 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-12 18:03:48,662 [basehttp.py:157] [basehttp:log_message] - "GET /admin/polls/question/?o=-1 HTTP/1.1" 200 7658
+INFO 2020-11-12 18:03:48,687 [basehttp.py:157] [basehttp:log_message] - "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2020-11-12 18:03:51,530 [basehttp.py:157] [basehttp:log_message] - "GET /admin/polls/question/?o=2.-1 HTTP/1.1" 200 8028
+INFO 2020-11-12 18:03:51,556 [basehttp.py:157] [basehttp:log_message] - "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2020-11-12 18:03:52,132 [basehttp.py:157] [basehttp:log_message] - "GET /admin/polls/question/?o=-2.-1 HTTP/1.1" 200 8035
+INFO 2020-11-12 18:03:52,158 [basehttp.py:157] [basehttp:log_message] - "GET /admin/jsi18n/ HTTP/1.1" 200 7732
+INFO 2020-11-12 18:04:12,191 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\polls\models.py changed, reloading.
+INFO 2020-11-12 18:04:12,824 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader

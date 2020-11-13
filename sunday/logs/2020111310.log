@@ -1,0 +1,2 @@
+INFO 2020-11-13 10:38:26,597 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-13 14:31:42,808 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\polls\views.py changed, reloading.

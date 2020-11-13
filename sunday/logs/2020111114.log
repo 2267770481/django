@@ -1,0 +1,55 @@
+INFO 2020-11-11 14:21:00,121 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:21:14,559 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:21:15,149 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:21:20,451 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:21:21,030 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:21:34,785 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 14:21:38,903 [views.py:51] [views:login] - quote_from_bytes() expected bytes
+INFO 2020-11-11 14:21:38,909 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 12
+INFO 2020-11-11 14:22:53,315 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:22:53,899 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:38:55,226 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:38:55,813 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:40:03,481 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:40:04,108 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:41:41,009 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:41:41,616 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:42:16,540 [basehttp.py:157] [basehttp:log_message] - "GET /admin HTTP/1.1" 301 0
+INFO 2020-11-11 14:42:16,559 [basehttp.py:157] [basehttp:log_message] - "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-11-11 14:42:16,621 [basehttp.py:157] [basehttp:log_message] - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2194
+INFO 2020-11-11 14:42:16,641 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2138
+INFO 2020-11-11 14:42:16,644 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/css/login.css HTTP/1.1" 200 1185
+INFO 2020-11-11 14:42:16,645 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+INFO 2020-11-11 14:42:16,649 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/css/responsive.css HTTP/1.1" 200 18339
+INFO 2020-11-11 14:42:16,650 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2020-11-11 14:42:16,656 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-11-11 14:42:16,686 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2020-11-11 14:42:16,686 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2020-11-11 14:42:25,885 [basehttp.py:157] [basehttp:log_message] - "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2353
+INFO 2020-11-11 14:42:25,925 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2020-11-11 14:42:45,389 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\sunday\urls.py changed, reloading.
+INFO 2020-11-11 14:42:45,991 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:45:50,875 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\sunday\urls.py changed, reloading.
+INFO 2020-11-11 14:45:51,472 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:53:18,165 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:53:18,765 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:54:11,051 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:54:11,644 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:54:32,134 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:54:32,718 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:55:01,487 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:55:02,080 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:55:37,052 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
+INFO 2020-11-11 14:55:37,632 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
+INFO 2020-11-11 14:57:06,381 [basehttp.py:157] [basehttp:log_message] - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-11-11 14:57:06,449 [basehttp.py:157] [basehttp:log_message] - "GET /admin/ HTTP/1.1" 200 3305
+INFO 2020-11-11 14:57:06,468 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2020-11-11 14:57:06,481 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2020-11-11 14:57:06,481 [basehttp.py:157] [basehttp:log_message] - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2020-11-11 14:57:27,261 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 14:57:32,924 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 200 24
+INFO 2020-11-11 14:57:54,510 [basehttp.py:157] [basehttp:log_message] - "GET /user/login/ HTTP/1.1" 200 402
+INFO 2020-11-11 14:58:00,781 [basehttp.py:157] [basehttp:log_message] - "POST /user/login/ HTTP/1.1" 302 0
+INFO 2020-11-11 14:58:00,784 [basehttp.py:157] [basehttp:log_message] - "GET /index HTTP/1.1" 301 0
+INFO 2020-11-11 14:58:00,786 [basehttp.py:157] [basehttp:log_message] - "GET /index/ HTTP/1.1" 200 5
+INFO 2020-11-11 15:01:03,324 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\sunday\settings.py changed, reloading.
