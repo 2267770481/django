@@ -5,6 +5,7 @@ from django.urls import reverse
 from django.views import generic
 from .models import Question, Choice
 
+
 # fbv
 def index(request):
     latest_question_list = Question.objects.order_by('-date')[:5]
