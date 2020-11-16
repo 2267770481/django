@@ -49,6 +49,20 @@ class DetailView(generic.DetailView):
     template_name = 'polls/detail.html'
 
 
+class VoteView(generic.View):
+    def post(self, request, pk):
+        print(123)
+        question = get_object_or_404(Question, pk=pk)
+        try:
+            choice = Choice.objects.get(pk=request.POST['choice'])
+        except:
+            return HttpResponse('该问题现在还没有选项')
+        else:
+            choice.votes += 1
+            choice.save()
+        return HttpResponseRedirect(reverse('polls:result', args=(pk,)))  # 注意重定向那里是冒号 :
+
+
 class ResultView(generic.DetailView):
     model = Question
     template_name = 'polls/result.html'

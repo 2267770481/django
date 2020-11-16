@@ -60,6 +60,7 @@ def login(request):
 
 
 def login(request):
+    print(request.user.is_anonymous)
     if request.method == "GET":
         return render(request, 'user/login.html')
     username = request.POST.get('username', None)

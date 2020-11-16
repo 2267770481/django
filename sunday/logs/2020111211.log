@@ -1,4 +1,0 @@
-INFO 2020-11-12 11:37:44,560 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
-INFO 2020-11-12 11:50:39,402 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\user\views.py changed, reloading.
-INFO 2020-11-12 11:50:40,007 [autoreload.py:613] [autoreload:run_with_reloader] - Watching for file changes with StatReloader
-INFO 2020-11-12 15:09:50,033 [autoreload.py:236] [autoreload:trigger_reload] - D:\python\sunday\sunday\urls.py changed, reloading.
